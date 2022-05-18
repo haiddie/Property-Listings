@@ -3,6 +3,147 @@
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 976px;
+  margin: 0 !important;
+  
+  
 }
+
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  box-shadow: none;
+  border-top:1px solid lightgray;
+  border-bottom:1px solid lightgray;
+}
+
+.topnav a {
+  margin: 10px;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  color:#1f67db;
+  background-color: transparent;
+  box-shadow: none;
+  color:#1f67db!important;
+  border-bottom: 3px solid #1f67db;
+}
+
+.topnav a.active {
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 3px solid red;
+}
+
+/*Section 1*/
+.section-title1{
+  padding-top:2%;
+  padding-left:1%;
+  font-size:18px;
+  font-weight:700;
+  color:#1f67db
+}
+
+.section-title2{
+  padding-top:5%;
+  padding-left:1%;
+  font-size:22px;
+  font-weight:700;
+  color:#1f67db
+}
+
+.properties{
+  padding-left:10px;
+  margin-top:10px!important;
+  margin-bottom:10px!important;
+  
+  font-size:14px;
+  color:gray
+}
+
+.prop{
+  padding-left:1%;
+  margin-top:10px!important;
+  margin-bottom:10px!important;
+  
+  font-size:14px;
+  color:black
+}
+
+ol, ul {
+  padding-left: 0!important;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #1f67db;
+  font-weight: bold;
+  
+  width: 1em;
+  margin-left: -1.41em;
+  margin-right:1em;
+}
+
+.descp{
+  font-size:12px;
+  padding:1%!important;
+}
+
+.card-descp{
+  font-size:12px;
+  padding-left:10px;
+  
+}
+
+.card{
+  margin-bottom:20px;
+  border-radius:8px;
+}
+
+.card-header{
+  background: #155ed4!important;
+  color:#ffff!important;
+  
+}
+
+.card-title{
+  font-size:14px!important;
+}
+
+.small-card-p{
+  font-size:12px!important;
+  color:black!important;
+  font-weight:700
+}
+.small-card-text{
+  font-size:10px!important;
+  margin:0!important
+}
+.active{
+  color:black!important;
+  font-weight:700
+}
+.div-header{
+  font-size:14px;
+  font-weight:700;
+  color:#1f67db;
+  padding-top:2%;
+  padding-left:10px;
+ 
+}
+
+.card-props{
+  font-size:12px;
+  font-weight:600;
+  padding-left:10px;
+  
+}
+
